@@ -4,11 +4,101 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practice</title>
-    <link rel="stylesheet" href="./style.css">
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto&display=swap");
-    </style>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <p>test</p>
-  <body></body>
+  <body>
+    <section id="home">
+      <nav>
+        <img class="logo" src="./Assets/FES.svg" alt="" />
+        <a class="nav__link" href="#about">About</a>
+        <a class="nav__link" href="#discord">Discord</a>
+        <a class="nav__link" href="#contcat">Contact</a>
+        <a class="nav__link" href="">Courses</a>
+      </nav>
+
+      <header>
+        <div class="row">
+          <div class="home__description">
+            <h1>Best place to learn Frontend Simplified</h1>
+            <p class="para__description">
+              Go from being a absolute beginner to a pro with a simplified
+              process.
+            </p>
+            <button class="home__description--btn">Start Now</button>
+          </div>
+          <figure class="home__img--wrapper">
+            <img class="home__img" src="./Assets/laptop.png" alt="" />
+          </figure>
+        </div>
+      </header>
+    </section>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <div class="about__description">
+          <div class="about__description--wrapper">
+            <p class="about__description--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              accusantium, architecto deleniti repudiandae ipsa porro dolor
+              libero placeat earum explicabo.
+            </p>
+            <p class="about__description--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum maxime dolorem nihil sint cum sapiente.
+            </p>
+          </div>
+          <figure class="about__img--wrapper">
+            <img class="about__img" src="./Assets/about.jpg" alt="" />
+          </figure>
+        </div>
+      </section>
+      <section id="discord">
+        <h2>Discord</h2>
+        <figure class="discord__img--wrapper">
+          <img class="discord__img" src="./Assets/discord.png" alt="" />
+        </figure>
+        <div class="discord__description--wrapper">
+          <p class="discord__description--para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur voluptas voluptatem veniam nobis architecto molestiae
+            officia odit, dolorum labore pariatur.
+          </p>
+          <p class="discord__description--para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            hic illo esse consequatur vel cupiditate.
+          </p>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="">
+          <span>Email</span>
+          <input type="Email" placeholder="Johndoe@example.com" />
+          <span>Message</span>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Nice website lets connect"
+          ></textarea>
+          <button class="contact__btn">Contact Us</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__nav">
+        <img src="./Assets/FES.svg" alt="" class="footer__logo" />
+      </div>
+      <div class="footer__nav--links">
+          <a href="#home" class="footer__links">Home</a>
+        <a href="#about" class="footer__links">About</a>
+        <a href="#discord" class="footer__links">Discord</a>
+        <a href="#contact" class="footer__links">Contact</a>
+      </div>
+      <div class="copyright">
+        Copyright 2025
+      </div>
+    </footer>
+  </body>
 </html>
